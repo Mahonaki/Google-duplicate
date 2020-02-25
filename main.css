@@ -101,19 +101,21 @@ body {
 }
 .button1,.button2 {
     display:inline-block;
-    padding:0.81em 2.6em;
-    background-color: #f8f8f8;
-    border: 1.5px solid #c6c6c6;
-    color: #222;
-    margin:auto;
+    padding:0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368; 
     box-sizing: border-box;
     text-align:center;
     transition: all 0.2s;
-    opacity: 0.5;
     transform: translateY(57vh);
     text-decoration: none;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 14px;
+    margin: 11px 4px;
+    line-height: 32px;
+    height: 36px;
+    min-width: 54px;
 }
 .button1:hover,.button2:hover{
     opacity: 1;
@@ -121,7 +123,7 @@ body {
     color: #222;
 }
 .button1 {
-    margin-right: 30px;
+    margin-right: 11px;
 }
 .footer {
     background: #f2f2f2;
